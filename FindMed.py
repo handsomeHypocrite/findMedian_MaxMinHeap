@@ -69,11 +69,9 @@ while True:
 
     newNumbers = inputArr()
 
-#to test with random numbers
+#to test with random numbers, uncomment
     # newNumbers = randarr()
-
-
-    array += newNumbers
+    # array += newNumbers
 
     if len(right_heap)>0:
         RoR = right_heap[0]
@@ -85,7 +83,7 @@ while True:
 
     print("calcuated median: %.1f" %median)
 
-#Checking result using statistics module
+#Check result using statistics module, uncomment
     # realMed = statistics.median(array)
     # print("actual median: %.1f" %realMed)
 

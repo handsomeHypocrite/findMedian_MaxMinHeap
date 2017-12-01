@@ -12,3 +12,7 @@ Got the BASIC idea from:
 https://stackoverflow.com/questions/11361320/data-structure-to-find-median
 
 note: if size of input is even, the middle 2 numbers are averaged
+
+Test and checking function is included in the main file.
+Test data is generated using numpy.random.rand()
+Checking is done using statistics.median()
